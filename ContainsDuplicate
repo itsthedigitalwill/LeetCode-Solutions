@@ -1,0 +1,9 @@
+class Solution:
+ def containsDuplicate(self, nums: List[int]) -> bool:
+   numSet = set(nums)
+
+   if lens(nums) == len(numSet):
+     return True
+   else:
+     return False
+ """"set is used for recognizing unique elements"""""
